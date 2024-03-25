@@ -1,5 +1,7 @@
 package edu.iu.habahram.DinerPancakeHouseMerge.model;
 
+import java.util.List;
+
 public class MenuItem {
     String name;
     String description;
@@ -15,6 +17,9 @@ public class MenuItem {
         this.description = description;
         this.vegetarian = vegetarian;
         this.price = price;
+    }
+
+    public MenuItem(String pancakeHouseMenu, List<MenuItem> theMenu) {
     }
 
     public String getName() {
