@@ -26,7 +26,7 @@ public class CafeMenu implements Menu {
         menuItems.put(name, menuItem);
     }
 
-    public Map<String, MenuItem> getItems() {
+    public Map<String, MenuItem> getMenuItems() {
         return menuItems;
     }
 
